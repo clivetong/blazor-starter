@@ -28,6 +28,6 @@
     <Content Include="wwwroot\.foo\Foo">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="wwwroot\.well-known\acme-challenge\nd8NRNicVtMFa0QMXtkSBjQHWQRZDGPS4xaln9PnHMs" />
+    <Content Include="wwwroot\.well-known\acme-challenge\DhirZWuw3glbOA4hDe9zxDqElc3BLwX4QkRBEMd3jU8" />
   </ItemGroup>
 </Project>
