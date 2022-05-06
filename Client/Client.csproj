@@ -21,6 +21,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\.foo\EmptyHtmlFile.html" />
-    <None Include="wwwroot\.foo\Foo" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="wwwroot\.foo\Foo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 </Project>
