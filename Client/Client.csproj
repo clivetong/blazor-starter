@@ -18,6 +18,8 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\.foo\" />
+    <Folder Include="wwwroot\.well-known\" />
+    <Folder Include="wwwroot\.well-known\acme-challenge\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\.foo\EmptyHtmlFile.html" />
@@ -26,5 +28,6 @@
     <Content Include="wwwroot\.foo\Foo">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="wwwroot\.well-known\acme-challenge\nd8NRNicVtMFa0QMXtkSBjQHWQRZDGPS4xaln9PnHMs" />
   </ItemGroup>
 </Project>
