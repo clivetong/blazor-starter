@@ -16,4 +16,11 @@
     <ProjectReference Include="..\Shared\Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\.foo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\.foo\EmptyHtmlFile.html" />
+    <None Include="wwwroot\.foo\Foo" />
+  </ItemGroup>
 </Project>
